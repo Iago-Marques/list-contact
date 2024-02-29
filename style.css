@@ -1,0 +1,76 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Tajawal", sans-serif;
+}
+
+.container{
+   background-image: url(img/rm222-mind-16.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.container h1{
+   padding-bottom: 20px;
+   font-size: 45px;
+   font-weight: bold;
+}
+
+.list-contact{
+   background-color: aliceblue;
+   width: 450px;
+   height: 350px;
+   overflow: auto;
+}
+
+.list-contact img{
+   width: 70px;
+   border-radius: 50%;
+
+}
+
+.contact{
+   padding: 15px 10px;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+
+.contact:hover{
+   background-color: rgba(212, 212, 212, 0.603);
+   border: 0.5px solid rgba(116, 115, 115, 0.137);
+}
+
+.img-name{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.img-name p{
+   color: rgb(121, 121, 121);
+}
+
+.icons img{
+   border-radius: 0;
+   width: 25px;
+}
+
+.contact .icons{
+   display: none;
+}
+
+
+
+
+
+
+
+
+
