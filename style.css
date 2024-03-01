@@ -14,25 +14,25 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+
+   h1{
+      padding-bottom: 20px;
+      font-size: 45px;
+      font-weight: bold;
+   }
 }
 
-.container h1{
-   padding-bottom: 20px;
-   font-size: 45px;
-   font-weight: bold;
-}
 
 .list-contact{
    background-color: aliceblue;
    width: 450px;
    height: 350px;
    overflow: auto;
-}
 
-.list-contact img{
-   width: 70px;
-   border-radius: 50%;
-
+   img{
+      width: 70px;
+      border-radius: 50%;
+   }
 }
 
 .contact{
@@ -40,31 +40,37 @@
    display: flex;
    justify-content:space-between;
    align-items: center;
+
+   .icons img{
+      border-radius: 0;
+      width: 20px;
+   }
+
+   .icons{
+      display: none;
+   }
 }
 
 .contact:hover{
    background-color: rgba(212, 212, 212, 0.603);
    border: 0.5px solid rgba(116, 115, 115, 0.137);
+
+   .icons{
+      display: flex;
+   }
 }
 
 .img-name{
    display: flex;
    align-items: center;
    gap: 15px;
+
+   p{
+      color: rgb(121, 121, 121);
+   }
 }
 
-.img-name p{
-   color: rgb(121, 121, 121);
-}
 
-.icons img{
-   border-radius: 0;
-   width: 25px;
-}
-
-.contact .icons{
-   display: none;
-}
 
 
 
