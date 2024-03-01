@@ -70,6 +70,42 @@
    }
 }
 
+@media (max-width: 450px) {
+   .container{
+
+      background-position: center;
+
+      h1{
+         font-size: 30px;
+      }
+   }
+
+   .list-contact{
+      background-color: aliceblue;
+      width: 380px;
+   
+      img{
+         width: 60px;
+         border-radius: 50%;
+      }
+   }
+
+   .img-name{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      h2{
+         font-size: 20px;
+      }
+   
+      p{
+         font-size: 14px;
+         color: rgb(121, 121, 121);
+      }
+   }
+}
+
 
 
 
